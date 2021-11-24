@@ -1,0 +1,153 @@
+
+[2021-11-12 22:18:43.093] cd work
+[2021-11-12 22:18:45.010] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work $ ls
+[2021-11-12 22:18:46.070] h-katsura  n-fukasawa  r-hasegawa  y-nakamura
+[2021-11-12 22:18:46.076] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work $ cd y-nakamura/
+[2021-11-12 22:18:48.783] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura $ ls
+[2021-11-12 22:18:49.648] 20211108  20211112
+[2021-11-12 22:18:49.655] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura $  cd 20211112/
+[2021-11-12 22:18:56.632] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ ls
+[2021-11-12 22:18:57.259] HUB-CDC-DDL  マスタHUB-DDL  トランHUB-DDL  HUB_VIEW_DDL
+[2021-11-12 22:18:57.263] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ cd マスタHUB-DDL
+[2021-11-12 22:19:20.598] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/マスタHUB-DDL $ ls -l
+[2021-11-12 22:19:22.748] total 8
+[2021-11-12 22:19:22.748] -rw-rw-r-- 1 apluser apluser 4860 Nov 12 09:17 在庫設定マスタ.sql
+[2021-11-12 22:19:22.752] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/マスタHUB-DDL $ 在庫設 定マスタ.sql
+[2021-11-12 22:19:49.991] cd ..
+[2021-11-12 22:19:51.111] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ cd HUB_VIEW_DDL
+[2021-11-12 22:20:16.400] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB_VIEW_DDL $ ls
+[2021-11-12 22:20:17.270] v_t_if_purchase_order.sql
+[2021-11-12 22:20:17.277] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB_VIEW_DDL $ cd ..
+[2021-11-12 22:20:45.617] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ cd トランHUB-DDL
+[2021-11-12 22:20:50.937] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/トランHUB-DDL $ ls -l
+[2021-11-12 22:20:54.847] total 232
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser 31016 Nov 12 09:56 GMIND受注明細.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser 19519 Nov 12 09:46 GMIND用ステータス情報.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser 18504 Nov 12 09:57 GMIND発注.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  5284 Nov 12 10:00 SAP入出庫伝票.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  4036 Nov 12 10:00 SAP出荷伝票.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  2717 Nov 12 09:38 SAP移動平均原価.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  5795 Nov 12 09:45 SAP購買伝票.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  1855 Nov 12 13:08 仕入.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  3524 Nov 12 09:36 入荷実績_C領域専用.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  5114 Nov 12 10:07 入金アンマッチ_SAP.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  1714 Nov 12 13:16 入金.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  2869 Nov 12 10:09 出荷不可繰越.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  4105 Nov 12 09:43 出荷件数集計前_IF用.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  3843 Nov 12 09:59 出荷回数.sql
+[2021-11-12 22:20:54.847] -rw-rw-r-- 1 apluser apluser  2641 Nov 12 09:39 出荷実績_C領域専用.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  4398 Nov 12 13:00 受注ヘッダ.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  7981 Nov 12 13:10 受注明細.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  1112 Nov 12 13:13 受注明細納品書.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  2369 Nov 12 10:09 受注残.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  3101 Nov 12 10:03 受注発注紐付け.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  1472 Nov 12 13:03 売上.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  3064 Nov 12 10:07 売掛_SAP.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  5221 Nov 12 10:06 売掛.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  3157 Nov 12 09:59 月次棚卸ランク.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  6521 Nov 12 10:04 未入金管理.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  5277 Nov 12 10:03 現法間取引.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser 11356 Nov 12 10:10 発注_GW.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser 12913 Nov 12 10:02 発注.sql
+[2021-11-12 22:20:54.857] -rw-rw-r-- 1 apluser apluser  2934 Nov 12 09:35 送り状レプリカ.sql
+[2021-11-12 22:20:54.862] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/トランHUB-DDL $ 
+[2021-11-12 22:20:54.970] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/トランHUB-DDL $ cd HUB -CDC-DDL
+[2021-11-12 22:21:32.619] -bash: cd: HUB-CDC-DDL: No such file or directory
+[2021-11-12 22:21:32.622] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/トランHUB-DDL $ dcd ..
+[2021-11-12 22:21:44.200] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ cd cd ..HUB-CDC-DDL
+[2021-11-12 22:21:50.320] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ ls -l
+[2021-11-12 22:21:52.049] total 236
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser 22348 Nov 12 10:31 GMIND受注明細.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser 14978 Nov 12 10:20 GMINDステータス情報.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  6576 Nov 12 10:22 GMIND注文番号データ.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser 14994 Nov 12 10:29 GMIND発注.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  1714 Nov 12 12:53 トランHUB-DDL
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  6413 Nov 12 10:29 SAP入出庫伝票.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  5856 Nov 12 10:26 SAP出荷伝票.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  5047 Nov 12 10:08 SAP移動平均原価.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  6418 Nov 12 10:23 SAP購買伝票.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  6205 Nov 12 10:12 入荷実績_C領域専用.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  7796 Nov 12 10:26 入金アンマッチ_SAP.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  7574 Nov 12 13:21 入金.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  5522 Nov 12 10:28 出荷不可繰越.sql
+[2021-11-12 22:21:52.049] -rw-rw-r-- 1 apluser apluser  6151 Nov 12 10:18 出荷件数集計前_IF用.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  5840 Nov 12 10:33 出荷回数.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  5407 Nov 12 10:15 出荷実績_C領域専用.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  5831 Nov 12 12:39 受注明細納品書.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  4721 Nov 12 10:28 受注残.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  5903 Nov 12 10:06 在庫設定マスタ.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  6635 Nov 12 12:26 売上.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  7695 Nov 12 10:24 売掛.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  5406 Nov 12 10:14 月次棚卸ランク.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  8206 Nov 12 10:23 未入金管理.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser 10153 Nov 12 10:27 発注_GW.sql
+[2021-11-12 22:21:52.056] -rw-rw-r-- 1 apluser apluser  6122 Nov 12 10:27 送り状レプリカ.sql
+[2021-11-12 22:21:52.061] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ ^C
+[2021-11-12 22:21:59.516] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ 
+[2021-11-12 22:22:05.397] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ cd ..
+[2021-11-12 22:22:22.474] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ ls
+[2021-11-12 22:31:13.490] HUB-CDC-DDL  マスタHUB-DDL  トランHUB-DDL  HUB_VIEW_DDL
+[2021-11-12 22:31:13.496] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112 $ cd cHUB-CDC-DDL
+[2021-11-12 22:31:22.081] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ ls
+[2021-11-12 22:31:23.026] GMIND受注明細.sql        SAP移動平均原価.sql      出荷回数.sql            月次棚卸ランク.sql
+[2021-11-12 22:31:23.026] GMINDステータス情報.sql  SAP購買伝票.sql          出荷実績_C領域専用.sql  未入金管理.sql
+[2021-11-12 22:31:23.026] GMIND注文番号データ.sql  入荷実績_C領域専用.sql   受注明細納品書.sql      発注_GW.sql
+[2021-11-12 22:31:23.026] GMIND発注.sql            入金アンマッチ_SAP.sql   受注残.sql              送り状レプリカ.sql
+[2021-11-12 22:31:23.026] トランHUB-DDL            入金.sql                 在庫設定マスタ.sql
+[2021-11-12 22:31:23.026] SAP入出庫伝票.sql        出荷不可繰越.sql         売上.sql
+[2021-11-12 22:31:23.026] SAP出荷伝票.sql          出荷件数集計前_IF用.sql  売掛.sql
+[2021-11-12 22:31:23.040] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ ls -l
+[2021-11-12 22:31:25.987] total 236
+[2021-11-12 22:31:25.987] -rw-rw-r-- 1 apluser apluser 22348 Nov 12 10:31 GMIND受注明細.sql
+[2021-11-12 22:31:25.987] -rw-rw-r-- 1 apluser apluser 14978 Nov 12 10:20 GMINDステータス情報.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  6576 Nov 12 10:22 GMIND注文番号データ.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser 14994 Nov 12 10:29 GMIND発注.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  1714 Nov 12 12:53 トランHUB-DDL
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  6413 Nov 12 10:29 SAP入出庫伝票.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  5856 Nov 12 10:26 SAP出荷伝票.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  5047 Nov 12 10:08 SAP移動平均原価.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  6418 Nov 12 10:23 SAP購買伝票.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  6205 Nov 12 10:12 入荷実績_C領域専用.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  7796 Nov 12 10:26 入金アンマッチ_SAP.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  7574 Nov 12 13:21 入金.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  5522 Nov 12 10:28 出荷不可繰越.sql
+[2021-11-12 22:31:25.989] -rw-rw-r-- 1 apluser apluser  6151 Nov 12 10:18 出荷件数集計前_IF用.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  5840 Nov 12 10:33 出荷回数.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  5407 Nov 12 10:15 出荷実績_C領域専用.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  5831 Nov 12 12:39 受注明細納品書.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  4721 Nov 12 10:28 受注残.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  5903 Nov 12 10:06 在庫設定マスタ.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  6635 Nov 12 12:26 売上.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  7695 Nov 12 10:24 売掛.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  5406 Nov 12 10:14 月次棚卸ランク.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  8206 Nov 12 10:23 未入金管理.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser 10153 Nov 12 10:27 発注_GW.sql
+[2021-11-12 22:31:25.998] -rw-rw-r-- 1 apluser apluser  6122 Nov 12 10:27 送り状レプリカ.sql
+[2021-11-12 22:31:25.998] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ rm トラ ンンHUB-DDL
+[2021-11-12 22:31:41.605] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ ｌｓls ^-l
+[2021-11-12 22:31:47.768] total 232
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser 22348 Nov 12 10:31 GMIND受注明細.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser 14978 Nov 12 10:20 GMINDステータス情報.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  6576 Nov 12 10:22 GMIND注文番号データ.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser 14994 Nov 12 10:29 GMIND発注.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  6413 Nov 12 10:29 SAP入出庫伝票.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  5856 Nov 12 10:26 SAP出荷伝票.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  5047 Nov 12 10:08 SAP移動平均原価.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  6418 Nov 12 10:23 SAP購買伝票.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  6205 Nov 12 10:12 入荷実績_C領域専用.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  7796 Nov 12 10:26 入金アンマッチ_SAP.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  7574 Nov 12 13:21 入金.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  5522 Nov 12 10:28 出荷不可繰越.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  6151 Nov 12 10:18 出荷件数集計前_IF用.sql
+[2021-11-12 22:31:47.769] -rw-rw-r-- 1 apluser apluser  5840 Nov 12 10:33 出荷回数.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  5407 Nov 12 10:15 出荷実績_C領域専用.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  5831 Nov 12 12:39 受注明細納品書.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  4721 Nov 12 10:28 受注残.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  5903 Nov 12 10:06 在庫設定マスタ.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  6635 Nov 12 12:26 売上.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  7695 Nov 12 10:24 売掛.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  5406 Nov 12 10:14 月次棚卸ランク.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  8206 Nov 12 10:23 未入金管理.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser 10153 Nov 12 10:27 発注_GW.sql
+[2021-11-12 22:31:47.775] -rw-rw-r-- 1 apluser apluser  6122 Nov 12 10:27 送り状レプリカ.sql
+[2021-11-12 22:31:47.775] apluser@ec2-a-c-msthub-gkeope-apne1-tw-stg01-01 ~/work/y-nakamura/20211112/HUB-CDC-DDL $ 
